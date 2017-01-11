@@ -1,2 +1,5 @@
-item1 = {"name" => "banana"], color => "green", price => "5"}
-item2 = {"name" => "Domingo", color => "chocolate", price => "3"}
+item1 = {"name" => "banana"], "color" => "green", "price" => "5"}
+item2 = {"name" => "Domingo", "color" => "chocolate", "price" => "3"}
+item3 = {"name": kamambiri, color: "blue", "price": 2}
+
+puts "the name is #{item1["name"]}"
