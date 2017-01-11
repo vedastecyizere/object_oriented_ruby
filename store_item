@@ -1,0 +1,2 @@
+item1 = {"name" => "banana"], color => "green", price => "5"}
+item2 = {"name" => "Domingo", color => "chocolate", price => "3"}
