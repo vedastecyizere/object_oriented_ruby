@@ -19,7 +19,7 @@ class Shoe
   end 
 
   def info 
-    "He we have #{@color} #{@name} at #{@price}"
+    "We have #{@color} #{@name} at #{@price}"
   end 
 
 end 
