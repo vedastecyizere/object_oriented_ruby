@@ -1,7 +1,6 @@
 class Shoe 
 
-  attr_reader :name, :color, :price 
-  attr_writer :price 
+  attr_accessor :name, :color, :price  
 
   def initialize (name,color,price)
     @name = name 
