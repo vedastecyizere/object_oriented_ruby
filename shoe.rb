@@ -1,21 +1,12 @@
 class Shoe 
 
+  attr_reader :name, :color, :price 
+  attr_writer :price 
+
   def initialize (name,color,price)
     @name = name 
     @color = color 
     @price = price 
-  end 
-
-  def name 
-    return @name 
-  end 
-
-  def color 
-    return @color 
-  end 
-
-  def price 
-    return @price 
   end 
 
   def info 
@@ -26,3 +17,5 @@ end
 
 shoe = Shoe.new("Kamambiriri","blue", 2)
 puts shoe.info 
+shoe.price = 5 
+puts shoe.price 
