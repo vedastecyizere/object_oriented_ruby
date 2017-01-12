@@ -1,11 +1,11 @@
 class Shoe 
 
-  attr_accessor :name, :color, :price  
+  attr_accessor :color,:name,:price  
 
-  def initialize (name,color,price)
-    @name = name 
-    @color = color 
-    @price = price 
+  def initialize (item_information)
+    @name = item_information[:name]
+    @color = item_information[:color]
+    @price = item_information[:price]
   end 
 
   def info 
@@ -14,7 +14,7 @@ class Shoe
 
 end 
 
-shoe = Shoe.new("Kamambiriri","blue", 2)
+shoe = Shoe.new(name:"Kamambiriri", color: "blue", price: 2, location: "Kimironko")
 puts shoe.info 
 shoe.price = 5 
 puts shoe.price 
