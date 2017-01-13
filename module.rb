@@ -16,17 +16,3 @@ module Vehicles
     @direction = new_direction
   end
 end
-
-
-class Bike
-  include Vehicles
-
-  def ring_bell
-    puts "Ring ring!"
-  end
-end
-
-car = Car.new
-bike = Bike.new 
-puts car.brake
-puts bike.accelerate   
