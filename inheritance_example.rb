@@ -33,3 +33,6 @@ puts car.honk_horn
 bike = Bike.new(brake: 0, accelerate: 10, new_direction: "north")
 puts bike.info 
 puts bike.ring_bell 
+
+emplyee.each do |emplyee|
+  
