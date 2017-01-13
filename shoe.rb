@@ -17,4 +17,4 @@ end
 shoe = Shoe.new(name:"Kamambiriri", color: "blue", price: 2, location: "Kimironko")
 puts shoe.info 
 shoe.price = 5 
-puts shoe.price 
+puts shoe.price
